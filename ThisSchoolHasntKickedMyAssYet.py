@@ -17,6 +17,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # It couldn't even stop me from creating a deep neural network
 # Allow me to introduce you the Elon "Cyber" Musk
 # This trains a neural network with 10000 Elon Musk tweets and simulates its writing style.
+# You will need tensorflow 2.0 and all the packages above to run this program. Good Luck
 #
 ##########################################################
 
