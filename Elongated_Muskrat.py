@@ -5,10 +5,15 @@ import random
 
 class ElonOrKanye:
     def __init__(self):
-
+        
+        consumer_key = ""
+        consumer_secret = ""
+        access_token_key = ""
+        access_token_secret = ""
+        
         key = TwitterKey()  # create your own key singleton
-        auth = tweepy.OAuthHandler(key.consumer_key, key.consumer_secret)
-        auth.set_access_token(key.access_token_key, key.access_token_secret)
+        auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+        auth.set_access_token(access_token_key, access_token_secret)
 
         print("getting tweets...")
         self.api = tweepy.API(auth)
