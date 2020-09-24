@@ -11,7 +11,6 @@ class ElonOrKanye:
         access_token_key = ""
         access_token_secret = ""
         
-        key = TwitterKey()  # create your own key singleton
         auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
         auth.set_access_token(access_token_key, access_token_secret)
 
